@@ -329,7 +329,7 @@ fieldset {
     margin-bottom: 0px;
 }
 
-@media only screen and (max-width: 390px){
+@media only screen and (max-width: 1219px){
     nav ul {
     flex-direction: row;
     align-items: center;
@@ -350,7 +350,8 @@ fieldset {
   }
 
   .hey-there{
-    margin-left: 25%;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   .hey-there::after{
