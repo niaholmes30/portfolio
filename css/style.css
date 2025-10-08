@@ -467,10 +467,4 @@ fieldset {
   }
 }
 
-@media (hover: none) {
-  .links li a:hover {
-    background-color: initial;
-    color: initial;
-  }
-}
 
