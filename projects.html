@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/headshot_doodles.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>My Projects</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="nia"><a href="index.html">Nia</a></li>
+                <li id="resume"><a href="./images/Nia Holmes - Resume 2025 copy.pdf" target="_blank" rel="noopener">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div><h1 id="projs-title"> My Projects</h1></div>
+        <div class="container-projs">
+            <div class="card-1">
+                <h2>Reddit's New Feature</h2>
+                <p>For a class assignment, I created wireframes for a new feature for Reddit I developed, called the “Achievement Tracker.”</p>
+                <div class="learn-more">
+                    <a href="reddit.html">Learn More</a>
+                </div>
+            </div>
+            <div class="card-2">
+                <h2>U-M GPT's New Feature</h2>
+                <p>For a class project, I created task flows and wireframes for a new feature for U-M GPT, University of Michigan;s very on Generative AI.</p>
+                <div class="learn-more">
+                    <a href="umgpt.html">Learn More</a>
+                </div>
+            </div>
+            <div class="card-3">
+                <h2>Menstrual Cycle Research Study</h2>
+                <p>For a class project, I conducted interviews to help me understand how women who struggle with their periods manage it and locate resources and information. </p>
+                <div class="learn-more">
+                    <a href="research.html">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </main>
+<footer class="proj-footer-fixed">
+    <div class="footer-container">
+        <div class="copyright">
+            <p>&copy; Copyright <span id="current-year"></span> by Nia Holmes</p>
+        </div>
+        <div>
+            <ul class="footer-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">My Projects</a></li>
+                <li><a href="about-me.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script>
+    document.getElementById("current-year").innerHTML = new Date().getFullYear();
+</script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/headshot_doodles.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="nia"><a href="index.html">Nia</a></li>
+                <li id="resume"><a href="./images/Nia Holmes - Resume 2025 copy.pdf" target="_blank" rel="noopener">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+            <div id="contact">
+                <div>
+                 <h2 class="contact-header">We Should Work Together!</h2>
+                </div>
+                <fieldset>
+                    <form action="https://formspree.io/f/xqapkvew" method="post">
+                        <div class="fields-row">
+                            <label for="the-name"></label>
+                            <input id="the-name" type="text" placeholder="Name" name="user_name" required>
+
+                            <label for="the-email"></label>
+                            <input id="the-email" type="email" placeholder="Email" name="user_email" required>
+                        </div>
+
+                        <label for="message"></label>
+                        <textarea placeholder="Your Message" id="message" name="user_message" rows="5" required></textarea>
+
+                        <input id="submit" type="submit" value="Send to Nia!">
+                    </form>
+                </fieldset>
+            </div>
+    </main>
+<footer class="proj-footer-fixed">
+    <div class="footer-container">
+        <div class="copyright">
+            <p>&copy; Copyright <span id="current-year"></span> by Nia Holmes</p>
+        </div>
+        <div>
+            <ul class="footer-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">My Projects</a></li>
+                <li><a href="about-me.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script>
+    document.getElementById("current-year").innerHTML = new Date().getFullYear();
+</script>    
+</body>
+</html>
