@@ -456,6 +456,7 @@ fieldset {
   #submit {
     width: 60%;              /* Easier to tap */
     font-size: 1em;
+    color: #000;
   }
 
   .reddit-img img,
@@ -463,6 +464,13 @@ fieldset {
     width: 100%;
     margin-top: 16px;
     margin-bottom: 0;
+  }
+}
+
+@media (hover: none) {
+  .links li a:hover {
+    background-color: initial;
+    color: initial;
   }
 }
 
