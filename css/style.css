@@ -374,6 +374,9 @@ fieldset {
     color: #000;
 } */
 
+#hide4, #hide6 {
+  display: none;
+}
 
 @media only screen and (max-width: 1219px){
     nav ul {
@@ -526,6 +529,21 @@ fieldset {
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
+  }
+
+  #hide3, #hide5 {
+    display: none;
+  }
+
+  #reddit-img, #umgpt-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  #hide4, #hide6 {
+    display: block;
+    width: 90%;
+    margin-bottom: 50px;
   }
 }
 
