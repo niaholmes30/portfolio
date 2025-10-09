@@ -530,30 +530,44 @@ fieldset {
 
 
   #resume a:hover {
-    pointer-events: none;
+    background-color: initial;
+    color: initial;
+    transform: none;
   }
 
   .hey-there:hover{
-      pointer-events: none;
+    background-color: initial;
+    color: initial;
+    transform: none;
   }
 
   .links li a:hover{
-      pointer-events: none;
+    background-color: initial;
+    color: initial;
+    transform: none;
   }
 
   .footer-nav a:hover{
-      pointer-events: none;
+    background-color: initial;
+    color: initial;
+    transform: none;
   }
 
   .learn-more a:hover{
-      pointer-events: none;
+    background-color: initial;
+    color: initial;
+    transform: none;
   }
 
   #submit:hover{
-      pointer-events: none;
+    background-color: initial;
+    color: initial;
+    transform: none;
   }
 
   .interact a:hover{
-      pointer-events: none;
+    background-color: initial;
+    color: initial;
+    transform: none;
   }
 }
