@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/headshot_doodles.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>T-MIM</title>
+</head>
+<body class="other-style">
+    <header>
+        <nav>
+            <ul>
+                <li id="nia"><a href="index.html">Nia</a></li>
+                <li id="resume"><a href="./images/Nia Holmes - Resume 2025 copy.pdf" target="_blank" rel="noopener">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="description">
+                <div>
+                    <h1 class="proj-header">Project Overview</h1><br>
+                    <p><strong>Title:</strong> T-MIM (Too Much Information Movies)</p>
+                    <p><strong>Role & Responsibilities:</strong> Web/UX Designer, in charge of rewriting Python script into JavaScript, and ensuring the website was accessible, responsive, had seamless interaction, and featured a modern look and simple navigation</p>
+                    <p><strong>Tools:</strong> Visual Studio Code, HTML5, CSS, JavaScript, WAVE & AXE accessibility checkers, and HTML & CSS validators</p>
+                </div><br>
+                <h2 class="proj-header">Process & Approach</h2><br>
+                <p><strong>Context:</strong> My goal was to design a similar platform to IMDb, but ensure my new site was a modern and AD-free platform where users can receive information about specific movies and TV shows before watching them, ultimately saving them from annoying movie searches and bad entertainment experiences.</p><br>
+                <p><strong>Problem Statement:</strong> The IMDb website has a ton of information, choices, and ADs, which may cause a user to encounter decision paralysis upon entering the website, or experience annoyance with all the advertisements.</p><br>
+                <p><strong>Research:</strong> Many people discover what to watch through recommendations on social media, browsing streaming platforms, or asking generative AI for recommendations.</p><br>
+                <p><strong>Pain Points:</strong> Recommendations on social media may not give enough information, or may be promotional, and therefore biased. Most streaming platforms don't provide the user with ratings for the movie or TV show, which some users look to when deciding on what to watch. Generative AI may pull from a multitude of sources, making it difficult to determine if it's giving you accurate information.</p><br>
+                <p><strong>Design Solution:</strong> With this in mind, I decided to make my website user input based, meaning the site will only display information on the specific movie or TV show entered by the user. This dials down on information overload, preventing decision paralysis, and also allows the user to get further information on a recommendation from social media, streaming platforms, or generative AI. </p><br>
+                <div class="tmim-img">
+                    <h3 class="proj-header">Visuals</h3>
+                    <div class="tmim-img-wrapper">
+                        <img id="hide" src="./images/Desktop Visual.png" alt="Visuals of a few pages of T-MIM">
+                        <img id="hide2" src="./images/Mobile Visual.png" alt="Visuals of a few pages of T-MIM">
+                    </div>
+                    <div class="interact">
+                        <a href="https://niaholmes.github.io/final/">Interact With T-MIM!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<footer class="proj-footer">
+    <div class="footer-container">
+        <div class="copyright">
+            <p>&copy; Copyright <span id="current-year"></span> by Nia Holmes</p>
+        </div>
+        <div>
+            <ul class="footer-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">My Projects</a></li>
+                <li><a href="about-me.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script>
+    document.getElementById("current-year").innerHTML = new Date().getFullYear();
+</script>
+</body>
+</html>

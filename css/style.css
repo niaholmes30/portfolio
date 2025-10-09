@@ -28,6 +28,8 @@ body{
     background-color: #B1CFC7;
     display: inline-block;
     margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 ul, ol {
@@ -175,22 +177,29 @@ nav ul {
     text-align: center;
 }
 
-.container-projs {
+.container-projs, .container-projs-2 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 30px;
     padding: 40px;
-    margin: 50px;
-    transition: transform 0.5s; 
+    /* transition: transform 0.5s;  */
 }
 
-.card-1, .card-2, .card-3 {
+.container-projs-2{
+    margin-bottom: 100px;
+}
+
+
+.card-1, .card-2, .card-3, .card-4 {
     background-color: white;
     color: #000;
     padding: 50px;
     border-radius: 30px;
     line-height: 30px;
+    width: 40%;
 }
+
 
 .card-1 p {
     margin-top: 20px;
@@ -201,6 +210,10 @@ nav ul {
 }
 
 .card-3 p {
+    margin-top: 20px;
+}
+
+.card-4 p {
     margin-top: 20px;
 }
 
@@ -329,6 +342,39 @@ fieldset {
     margin-bottom: 0px;
 }
 
+#hide2 {
+  display: none;
+}
+
+.tmim-img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.tmim-img-wrapper img{
+  width: 95%;
+  margin-top: 20px;
+}
+
+.interact {
+    margin-top: 30px;
+}
+
+.interact a {
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.interact a:hover {
+    background-color: #B1CFC7;
+    color: #000;
+}
+
+
 @media only screen and (max-width: 1219px){
     nav ul {
     flex-direction: row;
@@ -383,16 +429,17 @@ fieldset {
     white-space: nowrap;
   }
 
-  .container-projs {
+  .container-projs, .container-projs-2 {
     flex-direction: column; 
     padding: 10px;
     margin: 10px;
     gap: 20px;
   }
 
-  .card-1, .card-2, .card-3 {
+  .card-1, .card-2, .card-3, .card-4 {
     padding: 20px;
     font-size: 16px;
+    width: 100%;
   }
 
   .about-text,
@@ -465,6 +512,48 @@ fieldset {
     margin-top: 16px;
     margin-bottom: 0;
   }
+
+  #hide {
+    display: none;
+  }
+
+  #hide2 {
+    display: block;
+  }
+
+  .interact{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  #resume a:hover {
+    pointer-events: none;
+  }
+
+  .hey-there:hover{
+      pointer-events: none;
+  }
+
+  .links li a:hover{
+      pointer-events: none;
+  }
+
+  .footer-nav a:hover{
+      pointer-events: none;
+  }
+
+  .learn-more a:hover{
+      pointer-events: none;
+  }
+
+  #submit:hover{
+      pointer-events: none;
+  }
+
+  .interact a:hover{
+      pointer-events: none;
+  }
 }
-
-
